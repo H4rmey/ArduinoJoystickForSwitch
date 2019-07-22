@@ -50,18 +50,18 @@ but i'll be honest i have no idea how because im on Linux D:).
 
 ## Mapping
 Button mapping (pro micro):<br/> 
-D0:<br/>
-D1:<br/>
-D2:<br/>
-D3:<br/>
-D4:<br/>
-D6:<br/>
-D8:<br/>
-D9:<br/>
-D10:<br/>
-D14:<br/>
-D15:<br/>
-D16:<br/>
+D0: X<br/>
+D1: A<br/>
+D2: B<br/>
+D3: Y<br/>
+D4: L<br/>
+D6: Zr<br/>
+D8: Down<br/>
+D9: UP<br/>
+D10: R<br/>
+D14: Right<br/>
+D15: Zl<br/>
+D16: Left<br/>
 
 Button mapping (leonardo):<br/> 
 D0:<br/>
