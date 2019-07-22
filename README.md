@@ -31,7 +31,7 @@ p.s.: if the command gives an error try pressing the reset button on the arduino
 idk prob use Xloader to upload the hex file (im not on windows so idk how that works...)
 
 ## editing code setup
-If you are on Linux you can also change my code if you want to (you can also do it on Windows
+If you are on Linux you can also change the if you want to (you can also do it on Windows
 but i'll be honest i have no idea how because im on Linux D:). 
 1. Install the arduino IDE or setup the AVR toolchain. 
 2. Install the GCC compiler and Tools: https://www.pjrc.com/teensy/gcc.html or use sudo apt-get install gcc-avr binutils-avr avr-libc. 
