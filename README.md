@@ -7,13 +7,13 @@ I wanted to make a controller for the switch using a microcontroller (arduino). 
 
 This project is made for the arduino pro micro (because i had a lot of them and wanted to use them in a project) and the arduino leonardo. You can also use this for a teensy or the arduino UNO, but for that you'll need to dive into the repositories i used yourself. It should also work for the arduino micro, if you're using a arduino micro follow all the same steps for the leonardo because the layout is very similar.
 
-## libraries/repositories
+## Libraries/repositories
 I use this repository as my main setup:	https://github.com/wchill/SwitchInputEmulator <br/>
 I used this repository as an example/setup: https://github.com/progmem/Switch-Fightstick <br/>
 They used this library to tie it all together: http://www.fourwalledcubicle.com/LUFA.php <br/>
 (huge credit to these guys, i have no clue how this works but it does)
 
-## licence
+## License
                 LUFA Library
         Copyright (C) Dean Camera, 2012.
 
@@ -38,7 +38,7 @@ p.s.: if the command gives an error try pressing the reset button on the arduino
 ### Windows
 idk prob use Xloader to upload the hex file (im not on windows so idk how that works...)
 
-## editing code setup
+## Editing code setup
 If you are on Linux you can also change the if you want to (you can also do it on Windows
 but i'll be honest i have no idea how because im on Linux D:). 
 1. Install the arduino IDE or setup the AVR toolchain. 
@@ -48,7 +48,7 @@ but i'll be honest i have no idea how because im on Linux D:).
 5. Open a terminal in the pro micro/leonardo directory and type the command: ```make``` his will generate a new Joystick.hex. 
 6. Follow the instructions for linux above. 
 
-## mapping
+## Mapping
 Button mapping (pro micro):<br/> 
 D0:<br/>
 D1:<br/>
@@ -77,7 +77,7 @@ D11:<br/>
 D12:<br/>
 D13:<br/>
 
-## welp...
+## Welp...
 The +, -, home, capture and analog sticks do not work, due to either not enough inputs (hardware limitations) or me not knowing how you can use the avr library to read out analog pins (if someone could explain by a piece of example code, that would be lovely and highly papriciated).
 
 
