@@ -7,10 +7,18 @@ I wanted to make a controller for the switch using a microcontroller (arduino). 
 
 This project is made for the arduino pro micro (because i had a lot of them and wanted to use them in a project) and the arduino leonardo. You can also use this for a teensy or the arduino UNO, but for that you'll need to dive into the repositories i used yourself. It should also work for the arduino micro, if you're using a arduino micro follow all the same steps for the leonardo because the layout is very similar.
 
+## libraries/repositories
 I use this repository as my main setup:	https://github.com/wchill/SwitchInputEmulator <br/>
 I used this repository as an example/setup: https://github.com/progmem/Switch-Fightstick <br/>
 They used this library to tie it all together: http://www.fourwalledcubicle.com/LUFA.php <br/>
 (huge credit to these guys, i have no clue how this works but it does)
+
+## licence
+                LUFA Library
+        Copyright (C) Dean Camera, 2012.
+
+     dean [at] fourwalledcubicle [dot] com
+                www.lufa-lib.org
 
 ## Upload to arduino
 If you simply want the program and don't want to look at/compile the code yourself, thats fine! You'll simply have to upload the Joystick.hex file in the Arduino Pro Micro/Arduino leonardo folder.
