@@ -42,7 +42,10 @@ idk prob use Xloader to upload the hex file (im not on windows so idk how that w
 If you are on Linux you can also change the if you want to (you can also do it on Windows
 but i'll be honest i have no idea how because im on Linux D:). 
 1. Install the arduino IDE or setup the AVR toolchain. 
-2. Install the GCC compiler and Tools: https://www.pjrc.com/teensy/gcc.html or use sudo apt-get install gcc-avr binutils-avr avr-libc. 
+2. Install the GCC compiler and Tools: https://www.pjrc.com/teensy/gcc.html or use 
+```bash
+sudo apt-get install gcc-avr binutils-avr avr-libc. 
+```
 3. Go into the pro micro/leonardo directory. 
 4. Open Joystick.c and edit the code however you like i guess. 
 5. Open a terminal in the pro micro/leonardo directory and type the command: ```make``` his will generate a new Joystick.hex. 
